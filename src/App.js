@@ -68,7 +68,7 @@ function App() {
 
             <button type="button" style={{margin: "5px"}}
                     className="btn btn-outline-success"
-                    onClick={deleteAll}>Reset All
+                    onClick={deleteAll}>Delete All
             </button>
 
 
