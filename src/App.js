@@ -24,7 +24,7 @@ function App() {
         setCounters(updatedCounter)
     }
 
-    const resetAll = () => {
+    const deleteAll = () => {
         setCounters([])
 
         const updatedCounter = ([...counters])
@@ -68,7 +68,7 @@ function App() {
 
             <button type="button" style={{margin: "5px"}}
                     className="btn btn-outline-success"
-                    onClick={resetAll}>Reset All
+                    onClick={deleteAll}>Reset All
             </button>
 
 
